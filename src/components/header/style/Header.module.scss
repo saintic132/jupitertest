@@ -10,7 +10,6 @@
   padding: 16px 135px;
 
   h1 {
-    font-family: Epilogue-ExtraBold, serif;
     margin-top: 90px;
     font-size: 72px;
     text-align: center;
@@ -34,6 +33,7 @@
 .header__header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   ul {
     padding: 0 20px;
@@ -65,4 +65,6 @@
   text-transform: uppercase;
   opacity: 1;
   cursor: pointer;
+  font-weight: 300;
+  font-size: 14px;
 }

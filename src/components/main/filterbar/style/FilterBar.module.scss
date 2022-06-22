@@ -1,7 +1,7 @@
 .filterbar__body {
   max-width: 563px;
   width: 100%;
-  margin: 80px auto;
+  padding: 80px 0;
 
   ul {
     list-style: none;
@@ -13,5 +13,24 @@
     letter-spacing: 0;
     color: #391400A3;
     cursor: pointer;
+    &.filterbar__active {
+      letter-spacing: 0;
+      color: #16CD53;
+    }
   }
+  @media (max-width: 1040px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.filterbar__select {
+  padding: 13px 0 13px 16px;
+  max-width: 340px;
+  width: 100%;
+  height: 48px;
+  border: 1px solid #F3D1BF;
+  background-color: #FFFFFF;
+  border-radius: 6px;
 }

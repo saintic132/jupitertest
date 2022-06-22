@@ -3,6 +3,9 @@ import style from './style/Header.module.scss'
 import {SvgIcon} from "../../common/style/SvgIcon/SvgIcon";
 
 export const Header = () => {
+
+
+
     return (
         <div className={style.header__body}>
             <div className={style.header__container}>

@@ -2,6 +2,7 @@ import React from 'react';
 
 export const SvgIcon = () => {
     return (
+        <div style={{width: '140px', height: '44px'}}>
         <svg xmlns="http://www.w3.org/2000/svg" width="139.825" height="43.416" viewBox="0 0 139.825 43.416">
             <g id="logo" transform="translate(-1.175)">
                 <text id="Agency" transform="translate(62 32)" fill="#fff">
@@ -17,6 +18,6 @@ export const SvgIcon = () => {
                       transform="translate(14 14)" fill="#ef6d58"/>
             </g>
         </svg>
-
+        </div>
     )
 }

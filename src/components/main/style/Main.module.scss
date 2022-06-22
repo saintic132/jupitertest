@@ -1,6 +1,8 @@
 .content__body {
   width: 100%;
-  min-height: 1800px;
   background-color: #FDF0E9;
-  border: 1px solid #90E149;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
