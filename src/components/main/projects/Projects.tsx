@@ -4,8 +4,9 @@ import {useAppSelector} from "../../../store/selectors";
 import {projectsFilter, setFilterByCategory} from "../../../utils/projectsFilter";
 import {useDispatch} from "react-redux";
 import {deleteProject} from "../../../store/actions/projects";
+import {currentWidthType} from "../../../common/types";
 
-export const Projects = () => {
+export const Projects = ({currentWindowDimensions}: currentWidthType) => {
 
     const dispatch = useDispatch()
     let projects = useAppSelector(state => state.projects.projects)
@@ -16,14 +17,15 @@ export const Projects = () => {
     const [projectId, setProjectId] = useState<number | null>(null);
     const [activeProject, setActiveProject] = useState<boolean>(false);
 
-
     const changeActiveProject = (id: number) => {
-        if (id === projectId) {
-            setActiveProject(false)
-            setProjectId(null)
-        } else {
-            setProjectId(id)
-            setActiveProject(true)
+        if (currentWindowDimensions.width && currentWindowDimensions.width > 1040) {
+            if (id === projectId) {
+                setActiveProject(false)
+                setProjectId(null)
+            } else {
+                setProjectId(id)
+                setActiveProject(true)
+            }
         }
     }
 
