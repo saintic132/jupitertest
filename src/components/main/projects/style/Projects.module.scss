@@ -1,0 +1,31 @@
+.projects__body {
+  padding: 0 135px;
+  display: flex;
+  flex-wrap: wrap;
+
+  ul {
+    list-style: none;
+  }
+}
+
+
+.projects__project {
+  position: relative;
+  //padding: 30px;
+
+  img {
+
+  }
+
+  h3 {
+    position: absolute;
+    bottom: 70px;
+    left: 70px;
+    font-size: 40px;
+    font-family: Epilogue-ExtraBold, serif;
+    text-align: left;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    z-index: 99;
+  }
+}

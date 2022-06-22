@@ -1,0 +1,1 @@
+export {projectsReducer} from './projects'

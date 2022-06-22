@@ -1,12 +1,8 @@
-import {TypedUseSelectorHook, useSelector} from "react-redux";
 import {combineReducers, legacy_createStore as createStore, Store} from "redux";
+import { projectsReducer } from "./reducers";
+import {AppActionType, AppStoreType} from "./types";
 
-let rootReducer = combineReducers({})
-
+export let rootReducer = combineReducers({
+    projects: projectsReducer
+})
 export const store: Store<AppStoreType, AppActionType> = createStore(rootReducer)
-
-export const useAppSelector: TypedUseSelectorHook<AppStoreType> = useSelector
-
-
-export type AppStoreType = ReturnType<typeof rootReducer>
-export type AppActionType = any
