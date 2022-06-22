@@ -1,0 +1,16 @@
+.filterbar__body {
+  max-width: 563px;
+  width: 100%;
+  margin: 80px auto;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li {
+    letter-spacing: 0;
+    color: #391400A3;
+  }
+}
