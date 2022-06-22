@@ -1,8 +1,12 @@
 .load__body {
-  margin: 80px 0 180px 0;
+  margin: 80px 0;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 555px) {
+    margin: 50px 0;
+  }
 
   button {
     padding: 14px 46px;

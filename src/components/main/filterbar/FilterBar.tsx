@@ -4,9 +4,9 @@ import {useDispatch} from "react-redux";
 import {useAppSelector} from "../../../store/selectors";
 import {setFilterByCategory} from '../../../utils/projectsFilter';
 import {CategoryType} from "../../../store/reducers/types";
-import {useWindowDimensions} from "../../../hooks/useWindowDimensions";
+import {currentWidthType} from "../../../common/types";
 
-export const FilterBar = () => {
+export const FilterBar = ({currentWindowDimensions}: currentWidthType) => {
 
     const dispatch = useDispatch()
 
@@ -20,15 +20,13 @@ export const FilterBar = () => {
         setFilterByCategory(dispatch, e.currentTarget.value as CategoryType)
     }
 
-    let currentWidth = useWindowDimensions()
-
     return (
         <div
             className={style.filterbar__body}
         >
 
             {
-                currentWidth.width && currentWidth.width > 1040
+                currentWindowDimensions.width && currentWindowDimensions.width > 1040
                     ? <ul>
                         <li
                             className={activeCategory === 'All' ? style.filterbar__active : ''}
@@ -62,17 +60,19 @@ export const FilterBar = () => {
                         </li>
                     </ul>
 
-                    : <select
-                        className={style.filterbar__select}
-                        value={activeCategory}
-                        onChange={handleSelectFilterByCategory}
-                    >
-                        <option value="All">Show All</option>
-                        <option value="Design">Design</option>
-                        <option value="Branding">Branding</option>
-                        <option value="Illustration">Illustration</option>
-                        <option value="Motion">Motion</option>
-                    </select>
+                    : <div className={style.filterbar__select}>
+                        <select
+                            value={activeCategory}
+                            onChange={handleSelectFilterByCategory}
+                        >
+                            <option value="All">Show All</option>
+                            <option value="Design">Design</option>
+                            <option value="Branding">Branding</option>
+                            <option value="Illustration">Illustration</option>
+                            <option value="Motion">Motion</option>
+                        </select>
+                    </div>
+
             }
 
         </div>

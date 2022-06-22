@@ -5,19 +5,32 @@
   gap: 20px;
   justify-content: center;
 
+  @media (max-width: 650px) {
+    padding: 0 20px;
+  }
+
   ul {
     list-style: none;
   }
 }
 
-
 .projects__project {
   position: relative;
   border: 5px solid transparent;
+  cursor: pointer;
 
   &.projects__project_active {
     border: 5px solid #90E149;
     border-radius: 13px;
+  }
+
+  @media (max-width: 1040px) {
+    cursor: auto;
+  }
+
+  @media (max-width: 650px) {
+    display: flex;
+    flex-direction: column;
   }
 
   img {
@@ -35,7 +48,10 @@
     text-align: center;
     letter-spacing: 0;
     font-weight: 400;
-    cursor: pointer;
+
+    @media (max-width: 1040px) {
+      cursor: pointer;
+    }
   }
 
   h3 {
@@ -43,7 +59,7 @@
     bottom: 70px;
     left: 70px;
     font-size: 40px;
-    font-family: Epilogue-ExtraBold, serif;
+    font-weight: 800;
     text-align: left;
     letter-spacing: 0;
     color: #FFFFFF;

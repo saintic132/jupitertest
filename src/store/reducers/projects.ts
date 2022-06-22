@@ -9,7 +9,7 @@ import Architect from '../../assets/img/project/Architect.png'
 import CalC from '../../assets/img/project/CalC.png'
 import Sport from '../../assets/img/project/Sport.png'
 import {ActionsProjectsType} from "../actions/types";
-import {PROJECTS} from "../../enums/Projects";
+import {PROJECTS} from "../enums/Projects";
 
 const initialProjectsState: initialProjectsStateType = {
     projects: [

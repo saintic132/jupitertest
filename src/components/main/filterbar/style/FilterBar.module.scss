@@ -13,11 +13,13 @@
     letter-spacing: 0;
     color: #391400A3;
     cursor: pointer;
+
     &.filterbar__active {
       letter-spacing: 0;
       color: #16CD53;
     }
   }
+
   @media (max-width: 1040px) {
     display: flex;
     justify-content: center;
@@ -26,11 +28,22 @@
 }
 
 .filterbar__select {
-  padding: 13px 0 13px 16px;
-  max-width: 340px;
+  max-width: 90%;
   width: 100%;
-  height: 48px;
-  border: 1px solid #F3D1BF;
-  background-color: #FFFFFF;
-  border-radius: 6px;
+
+  select {
+    padding: 13px 0 13px 16px;
+    max-width: 100%;
+    width: 100%;
+    height: 48px;
+    color: #391400A3;
+    border: 1px solid #F3D1BF;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    font-size: 16px;
+
+    option {
+      width: 10px;
+    }
+  }
 }
