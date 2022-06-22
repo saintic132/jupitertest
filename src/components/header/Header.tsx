@@ -1,14 +1,15 @@
-import React, {memo} from 'react';
+import React from 'react';
 import style from './style/Header.module.scss'
 import {SvgIcon} from "../../common/style/SvgIcon/SvgIcon";
 import {currentWidthType} from "../../common/types";
 
-export const Header = memo(({currentWindowDimensions}: currentWidthType) => {
+export const Header = ({currentWindowDimensions}: currentWidthType) => {
 
     return (
         <div className={style.header__body}>
             <div className={style.header__container}>
                 <div className={style.header__header}>
+
                     <SvgIcon/>
 
                     {
@@ -37,4 +38,4 @@ export const Header = memo(({currentWindowDimensions}: currentWidthType) => {
             </div>
         </div>
     )
-})
+}

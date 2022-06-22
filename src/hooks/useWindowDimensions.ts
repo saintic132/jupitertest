@@ -10,14 +10,14 @@ const getWindowDimensions = () => {
     };
 };
 
-type IWindowDimensionSize = {
+type IWindowDimensionSizeType = {
     width: number | null;
     height: number | null;
 }
 
 export const useWindowDimensions = () => {
     const initialDimensions = {width: null, height: null};
-    const [windowDimensions, setWindowDimensions] = useState<IWindowDimensionSize>(initialDimensions);
+    const [windowDimensions, setWindowDimensions] = useState<IWindowDimensionSizeType>(initialDimensions);
 
     useEffect(() => {
         const handleResize = () => {

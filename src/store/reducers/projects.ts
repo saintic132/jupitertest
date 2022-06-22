@@ -42,8 +42,8 @@ export const projectsReducer = (state: initialProjectsStateType = initialProject
                     ...state.projects
                         .slice(-9)
                         .map(proj => ({
-                        ...proj, id: proj.id + 9, title: proj.title + 1
-                    }))
+                            ...proj, id: proj.id + 9, title: proj.title + 1
+                        }))
                 ]
             }
         }

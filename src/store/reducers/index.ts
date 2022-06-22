@@ -1,1 +1,0 @@
-export {projectsReducer} from './projects'
