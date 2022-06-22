@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/jupitertest/static/css/main.ff59ca54.css",
+    "main.js": "/jupitertest/static/js/main.74416a0c.js",
+    "static/js/787.5dd6900b.chunk.js": "/jupitertest/static/js/787.5dd6900b.chunk.js",
+    "static/media/Abstract.png": "/jupitertest/static/media/Abstract.89d818981d49c85943bb.png",
+    "static/media/Sofa.png": "/jupitertest/static/media/Sofa.f08e634d504d9a45784b.png",
+    "static/media/Architect.png": "/jupitertest/static/media/Architect.d86572416f6599719602.png",
+    "static/media/Sport.png": "/jupitertest/static/media/Sport.816727aa3bb246be346a.png",
+    "static/media/DDDone.png": "/jupitertest/static/media/DDDone.f8e2fd905675a9d39048.png",
+    "static/media/HandP.png": "/jupitertest/static/media/HandP.879635da0ac41cb31da4.png",
+    "static/media/Work_Media.png": "/jupitertest/static/media/Work_Media.fafc56873deb39d6b74e.png",
+    "static/media/KeyBoard.png": "/jupitertest/static/media/KeyBoard.bae0998f89ead0f87547.png",
+    "static/media/CalC.png": "/jupitertest/static/media/CalC.98bf9a2ea55f227ac0f0.png",
+    "index.html": "/jupitertest/index.html",
+    "main.ff59ca54.css.map": "/jupitertest/static/css/main.ff59ca54.css.map",
+    "main.74416a0c.js.map": "/jupitertest/static/js/main.74416a0c.js.map",
+    "787.5dd6900b.chunk.js.map": "/jupitertest/static/js/787.5dd6900b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff59ca54.css",
+    "static/js/main.74416a0c.js"
+  ]
+}
