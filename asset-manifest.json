@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jupitertest/static/css/main.f5137306.css",
+    "main.css": "/jupitertest/static/css/main.d65b4b0c.css",
     "main.js": "/jupitertest/static/js/main.74416a0c.js",
     "static/js/787.5dd6900b.chunk.js": "/jupitertest/static/js/787.5dd6900b.chunk.js",
     "static/media/Abstract.png": "/jupitertest/static/media/Abstract.89d818981d49c85943bb.png",
@@ -13,12 +13,12 @@
     "static/media/KeyBoard.png": "/jupitertest/static/media/KeyBoard.bae0998f89ead0f87547.png",
     "static/media/CalC.png": "/jupitertest/static/media/CalC.98bf9a2ea55f227ac0f0.png",
     "index.html": "/jupitertest/index.html",
-    "main.f5137306.css.map": "/jupitertest/static/css/main.f5137306.css.map",
+    "main.d65b4b0c.css.map": "/jupitertest/static/css/main.d65b4b0c.css.map",
     "main.74416a0c.js.map": "/jupitertest/static/js/main.74416a0c.js.map",
     "787.5dd6900b.chunk.js.map": "/jupitertest/static/js/787.5dd6900b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5137306.css",
+    "static/css/main.d65b4b0c.css",
     "static/js/main.74416a0c.js"
   ]
 }
