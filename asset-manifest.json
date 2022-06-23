@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jupitertest/static/css/main.d65b4b0c.css",
-    "main.js": "/jupitertest/static/js/main.74416a0c.js",
+    "main.css": "/jupitertest/static/css/main.c2d9631c.css",
+    "main.js": "/jupitertest/static/js/main.62e9ec1d.js",
     "static/js/787.5dd6900b.chunk.js": "/jupitertest/static/js/787.5dd6900b.chunk.js",
     "static/media/Abstract.png": "/jupitertest/static/media/Abstract.89d818981d49c85943bb.png",
     "static/media/Sofa.png": "/jupitertest/static/media/Sofa.f08e634d504d9a45784b.png",
@@ -13,12 +13,12 @@
     "static/media/KeyBoard.png": "/jupitertest/static/media/KeyBoard.bae0998f89ead0f87547.png",
     "static/media/CalC.png": "/jupitertest/static/media/CalC.98bf9a2ea55f227ac0f0.png",
     "index.html": "/jupitertest/index.html",
-    "main.d65b4b0c.css.map": "/jupitertest/static/css/main.d65b4b0c.css.map",
-    "main.74416a0c.js.map": "/jupitertest/static/js/main.74416a0c.js.map",
+    "main.c2d9631c.css.map": "/jupitertest/static/css/main.c2d9631c.css.map",
+    "main.62e9ec1d.js.map": "/jupitertest/static/js/main.62e9ec1d.js.map",
     "787.5dd6900b.chunk.js.map": "/jupitertest/static/js/787.5dd6900b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d65b4b0c.css",
-    "static/js/main.74416a0c.js"
+    "static/css/main.c2d9631c.css",
+    "static/js/main.62e9ec1d.js"
   ]
 }
