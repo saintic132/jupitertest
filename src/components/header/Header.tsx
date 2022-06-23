@@ -13,7 +13,7 @@ export const Header = ({currentWindowDimensions}: currentWidthType) => {
                     <SvgIcon/>
 
                     {
-                        currentWindowDimensions.width && currentWindowDimensions.width > 1040 &&
+                        currentWindowDimensions.width && currentWindowDimensions.width > 1039 &&
                         <>
                             <ul>
                                 <li>About</li>

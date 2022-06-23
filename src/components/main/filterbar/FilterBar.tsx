@@ -26,7 +26,7 @@ export const FilterBar = ({currentWindowDimensions}: currentWidthType) => {
         >
 
             {
-                currentWindowDimensions.width && currentWindowDimensions.width > 1040
+                currentWindowDimensions.width && currentWindowDimensions.width > 1039
                     ? <ul>
                         <li
                             className={activeCategory === 'All' ? style.filterbar__active : ''}

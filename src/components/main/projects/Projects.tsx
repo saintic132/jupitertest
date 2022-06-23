@@ -18,7 +18,7 @@ export const Projects = ({currentWindowDimensions}: currentWidthType) => {
     const [activeProject, setActiveProject] = useState<boolean>(false);
 
     const changeActiveProject = (id: number) => {
-        if (currentWindowDimensions.width && currentWindowDimensions.width > 1040) {
+        if (currentWindowDimensions.width && currentWindowDimensions.width > 1039) {
             if (id === projectId) {
                 setActiveProject(false)
                 setProjectId(null)
